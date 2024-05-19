@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batik</title>
+    <link rel="stylesheet" href="demo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <br>
+    <header class="Headercontainer">
+        <div class="logoContainer">
+            <label>batik.</label>
+        </div>
+        
+        <div class="menuBar">
+            <ul>
+                <input type='checkbox' id='check'>
+               
+                <span class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" style="display: none;">Sign Up</a></li>
+                    <li><a href="#" style="display: none;" id="signUpButton">Login</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars" style="font-size: 23px;"></i></label>
+            </ul>
+        </div>
+        
+        <div class="authenticate">
+            <button class="authenticate_logIn">Login</button>
+            <button id="signUpButton" class="authenticate_signUp">Sign Up</button>
+        </div>
+    </header>
+    <br>
+    <!-- <hr> -->   
+    <!-- <img src="images/image2.png" class="image1" alt=""> -->
+    
+    <section>
+        <div class="image-gallery" style="position: relative;;">
+            <input type="radio" id="image1" name="gallery" checked style="display: none;">
+            <input type="radio" id="image2" name="gallery" style="display: none;"> 
+            <input type="radio" id="image3" name="gallery" style="display: none;" >
+            
+            <div class="images">
+                <img src="images/image_1.jpg" alt="Image 1" class="image" id="img1">
+                <img src="images/image_4.pg.webp" alt="Image 2" class="image" id="img2">
+                <img src="images/image_3.jpg" alt="Image 3" class="image" id="img3">
+                <h1>  Beyond Patterns:  <br>
+                    With Batik
+                </h1>
+                <br>
+                <p> Stitching Culture, Unraveling Discoveries</p>
+            </div>
+            
+            <div class="dots">
+                <label for="image1"></label>
+                <label for="image2"></label>
+                <label for="image3"></label>
+            </div>
+            
+        </div>
+    </section>
+    <div style="margin-top: 620px;"></div>
+    <div class="container">
+        <div class="sub-container" id="about">
+            <h1 id="wlcHeader">Batik - A Timeless Art Form:</h1>
+            <p>Batik, an ancient Indonesian textile art, boasts a rich history on Java. <br> This craft involves wax-resist  dyeing, creating intricate designs. <br> Motifs are  symbolic, adorning garments for royalty, preserving cultural <br> heritage.  Batik now influences modern fashion, showcasing adaptability.</p>
+            <p style="font-weight: 300;position: relative;left: -24px;">Batik, a symbol of Indonesian culture and craftsmanship, is cherished <br>for its beauty and historical significance. Traditional techniques<br> persist, while contemporary artisans innovate with new materials<br> and designs. This fusion of tradition and modernity keeps<br> batik vibrant, captivating audiences worldwide with its timeless allure.</p>
+        </div>
+        
+        <div class="image-container-1" id="history">
+            <h2>History Of Batik</h2>
+            <p>Batik, a traditional Indonesian art form, has a rich history spanning centuries.<br> Its origins date back to ancient civilizations in the Indonesian archipelago, where<br> it was used as a means of expressing cultural identity and social status. Over<br> time, batik evolved into a highly sophisticated art form, characterized by intricate<br> patterns and vibrant colors. Initially, batik was reserved for royalty and nobility, with<br> specific designs and motifs denoting rank and lineage. However, it gradually<br> became more accessible to the broader population, serving as a form of<br> personal adornment and cultural expression. Today, batik remains an integral<br> part of Indonesian culture, celebrated both domestically and internationally<br> for its beauty and significance. Its techniques have spread globally, influencing<br> fashion, art, and design across the world.</p>
+            <img src="images/image4.jpg" alt="">
+        </div>
+        <div class="image-container-2" id="process">
+            <h1>Process Of Making Batik</h1>
+            <img src="images/process_1.jpg" alt="First Step" title="First Step" id="image_1">
+            <span class="process process-1">1. This photo depicts the white fabric after its<br> initial dyeing, representing the base color<br> for the batik's stamp or motif.</span>
+            <div class="arrow arrow-right" style="left: 314px;">&#10140;</div>
+            <img src="images/process_2.jpg" alt="Second Step" title="Second Step" id="image_2">
+            <span class="process process-2">2. The dyed fabric has been hand stamped<br> with hot wax.</span>
+            <div class="arrow arrow-right" style="left: 642px;">&#10140;</div>
+            <img src="images/process_3.jpg" alt="Third Step" title="Third Step" id="image_3">
+            <span class="process process-3">3. The stamped fabric has been bleached,<br>  so thebackground fabric which is without<br>  wax has lost some of its color.</span>
+            
+            <section class="sectionImages">
+                <div class="arrow arrow-down" style="left: 820px;">&#10140;</div>
+                <img src="images/process_6.jpg" alt="Fourth Step" title="Last Step" id="image_6">
+                <span class="process process-6">6. Finally the fabric has been boiled to remove<br> the wax and this is the final result.</span>
+                <div class="arrow arrow-left" style="left: 650px;">&#10140;</div>
+                <img src="images/process_5.jpg" alt="Fifth Step" title="Fifth Step" id="image_5">
+                <span class="process process-5">5. The fabric is smoked to get a more nuanced<br> background colour.</span>
+                <div class="arrow arrow-left" style="left: 317px;">&#10140;</div>
+                <img src="images/process_4.jpg" alt="Last Step" title="Fourth Step" id="image_4">
+                <span class="process process-4">4. The bleached fabric has been re-dyed<br> on the part of the fabric without wax.</span>
+                <div style="margin-top: 20px;" class=""></div>
+            </section>
+            
+            
+        </div>
+
+        <h1 id="subwlcHeader">Batik:  Around The World</h1>
+        <div class="countriesDiv" id="discover">
+            <div style="margin-top: 120px;"></div>
+            <div class="indonesia">
+                <div id="indonesia">
+                    <h1>Indonesia</h1>
+                <div class="indonesiaImages">
+                    <div class="masonry one">
+                        <img src="images/indonesianbatik2.jpg" alt="">
+                    </div>
+                    <div class="masonry two">
+                        <img src="images/indonesianBatik.jpeg" alt="">   
+                    </div>
+                    <div class="masonry three">
+                        <img style="width: 275px;" src="images/indonesianbatik.jpg" alt="">
+                    </div>
+                    <div class="masonry four">
+                        <img src="images/indonesianBatik3.jpeg" alt="">
+                    </div>
+                    <div class="masonry five">
+                        <img src="images/indonesianBatik4.png" alt="">
+                    </div>
+                    <div class="masonry six">
+                        <img src="images/indonesianBatik5.jpeg" alt="">
+                    </div>  
+                    <div class="masonry seven">
+                        <img src="images/indonesiaBatik10.jpg" alt="">
+                    </div> 
+                    <div class="masonry eight">
+                        <img src="images/indonesianBatik7.jpeg" alt="">
+                    </div> 
+                    <div class="masonry nine">
+                        <img src="images/indonesianBatik8.jpeg" alt="">
+                    </div> 
+                    <div class="masonry ten">
+                        <img src="images/indonesianBatik9.jpeg" alt="">
+                    </div> 
+                </div>
+                
+                </div>
+            </div>
+            <div style="margin-top: 700px;"></div>
+
+            <div class="malaysia">
+                <h1>Malaysia</h1>
+                <div style="margin-top: 10px;"></div>
+                <div class="malaysiaImages">
+                    <div class="layout2 one">
+                        <img src="images/malaysia2.jpg" alt="">
+                    </div>
+                    <div class="layout2 two">
+                        <img src="images/malaysiabatik2.jpg" alt="">   
+                    </div>
+                    <div class="layout2 three">
+                        <img style="width: 275px;" src="images/malayasia3.jpeg" alt="">
+                    </div>
+                    <div class="layout2 four">
+                        <img src="images/malaysia4.jpeg" alt="">
+                    </div>
+                    <div class="layout2 five">
+                        <img src="images/malaysiabatik3.jpg" alt="">
+                    </div>
+                    <div class="layout2 six">
+                        <img src="images/malaysiabatik.jpg" alt="">
+                    </div>  
+                    <div class="layout2 seven">
+                        <img src="images/malayasiabatik.jpg" alt="">
+                    </div>  
+                    <div class="layout2 eight">
+                        <img src="images/mayalasiabatik5.jpg" alt="">
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <div style="margin-top: 390rem;"></div>
+    <div class="container2" id="contact">
+        
+        <h1 style="font-family: Poppins;font-size: 3.2rem;position: relative;left: 50%;transform: translate(-10%);">Contact Us</h1><br>
+        <div class="form-container">
+          <div class="left-container">
+            <div class="left-inner-container">
+                <h2>Let's Chat</h2>
+                <p>Whether you have a question, want to start a project or            simply want to connect.</p>
+              <br>
+              <p>Feel free to send us a message in the contact form</p>
+          </div>
+            </div>
+          <div class="right-container">
+            <div class="right-inner-container">
+              <form action="#">
+                  <h2 class="lg-view">Contact</h2>
+            <h2 class="sm-view">Let's Chat</h2>
+                 <p>* Required</p>
+                <input type="text" placeholder="Name *"  />
+            <input type="email" placeholder="Email *" />
+                  <input type="text" placeholder="Company" />
+                  <input type="phone" placeholder="Phone" />
+                <textarea rows="4" placeholder="Message"></textarea>
+                  <button>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>batik.</h3>
+            <br>
+            <p class="footer-links">
+                <a href="#home">Home</a>
+                |
+                <a href="#about">About</a>
+                |
+                <a href="#history">History</a>
+                |
+                <a href="#process">Process</a>
+                |
+                <a href="#discover">Discover</a>
+                |
+                <a href="#contact">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2021 <strong>batik.</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Jodhpur</span>
+                    Rajasthan</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1234567891</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:batik@support.com">batik@support.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Batik craft is an ancient art form reborn on our platform. Discover the intricate beauty of handcrafted textiles, rich in culture and tradition.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
