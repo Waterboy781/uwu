@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batik</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="demo.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,7 +14,6 @@
         <div class="logoContainer">
             <label>batik.</label>
         </div>
-        
         <div class="menuBar">
             <ul>
                 <input type='checkbox' id='check'>
@@ -26,21 +25,25 @@
                     <li><a href="#process">Process</a></li>
                     <li><a href="#discover">Discover</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" style="display: none;">Sign Up</a></li>
+                    <li><a href="#" style="display: none;" id="signUpButton">Login</a></li>
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                 </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+                <label for="check" class="open-menu"><i class="fas fa-bars" style="font-size: 23px;"></i></label>
             </ul>
         </div>
         
         <div class="authenticate">
-            <button>Login</button>
-            <button id="signUpButton">Sign Up</button>
+            <button class="authenticate_logIn">Login</button>
+            <button id="signUpButton" class="authenticate_signUp">Sign Up</button>
         </div>
     </header>
     <br>
-    <!-- <hr> -->   
+    <div id="br">
+        <br>
+        <br>
+    </div>
     <!-- <img src="images/image2.png" class="image1" alt=""> -->
-    
     <section>
         <div class="image-gallery" style="position: relative;;">
             <input type="radio" id="image1" name="gallery" checked style="display: none;">
@@ -70,8 +73,11 @@
     <div class="container">
         <div class="sub-container" id="about">
             <h1 id="wlcHeader">Batik - A Timeless Art Form:</h1>
+            <br>
+            <br>
             <p>Batik, an ancient Indonesian textile art, boasts a rich history on Java. <br> This craft involves wax-resist  dyeing, creating intricate designs. <br> Motifs are  symbolic, adorning garments for royalty, preserving cultural <br> heritage.  Batik now influences modern fashion, showcasing adaptability.</p>
-            <p style="font-weight: 300;position: relative;left: -24px;">Batik, a symbol of Indonesian culture and craftsmanship, is cherished <br>for its beauty and historical significance. Traditional techniques<br> persist, while contemporary artisans innovate with new materials<br> and designs. This fusion of tradition and modernity keeps<br> batik vibrant, captivating audiences worldwide with its timeless allure.</p>
+            <br>
+            <p style="font-weight: 300;position: relative">Batik, a symbol of Indonesian culture and craftsmanship, is cherished <br>for its beauty and historical significance. Traditional techniques<br> persist, while contemporary artisans innovate with new materials<br> and designs. This fusion of tradition and modernity keeps<br> batik vibrant, captivating audiences worldwide with its timeless allure.</p>
         </div>
         
         <div class="image-container-1" id="history">
@@ -110,7 +116,8 @@
         <div class="countriesDiv" id="discover">
             <div style="margin-top: 120px;"></div>
             <div class="indonesia">
-                <h1>Indonesia</h1>
+                <div id="indonesia">
+                    <h1>Indonesia</h1>
                 <div class="indonesiaImages">
                     <div class="masonry one">
                         <img src="images/indonesianbatik2.jpg" alt="">
@@ -142,6 +149,8 @@
                     <div class="masonry ten">
                         <img src="images/indonesianBatik9.jpeg" alt="">
                     </div> 
+                </div>
+                
                 </div>
             </div>
             <div style="margin-top: 700px;"></div>
@@ -181,14 +190,14 @@
     <div style="margin-top: 390rem;"></div>
     <div class="container2" id="contact">
         
-        <h1 style="font-family: Poppins;font-size: 3.2rem;position: relative;left: 50%;transform: translate(-50%);">Contact Us</h1><br>
+        <h1 style="font-family: Poppins;font-size: 3.2rem;position: relative;left: 50%;transform: translate(-10%);">Contact Us</h1><br>
         <div class="form-container">
           <div class="left-container">
             <div class="left-inner-container">
-            <h2>Let's Chat</h2>
-            <p>Whether you have a question, want to start a project or            simply want to connect.</p>
+                <h2>Let's Chat</h2>
+                <p>Whether you have a question, want to start a project or            simply want to connect.</p>
               <br>
-              <p>Feel free to send me a message in the contact form</p>
+              <p>Feel free to send us a message in the contact form</p>
           </div>
             </div>
           <div class="right-container">
